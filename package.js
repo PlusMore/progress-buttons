@@ -1,6 +1,6 @@
 Package.describe({
   name: 'plusmore:progress-buttons',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'Progress buttons inspired by codrops',
   // URL to the Git repository containing the source code for this package.
