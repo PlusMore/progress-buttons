@@ -30,6 +30,11 @@
   color: #fff !important;
 }
 
+.progress-button.btn-default.in-progress:after,
+.progress-button.btn-default.finished:after{
+  color: #424856 !important;
+}
+
 /* If the .in-progress class is set on the button, show the
    contents of the data-loading attribute on the butotn */
 
@@ -46,7 +51,7 @@
 /* The colorful bar that grows depending on the progress */
 
 .progress-button .tz-bar{
-  background-color:#0094a6;
+  background-color:rgba(255,255,255,.3);
   height:3px;
   bottom:0;
   left:0;
@@ -59,6 +64,10 @@
   -webkit-transition: width 0.5s, height 0.5s;
   -moz-transition: width 0.5s, height 0.5s;
   transition: width 0.5s, height 0.5s;
+}
+
+.progress-button.btn-default .tz-bar{
+  background-color:rgba(0,0,0,.3);
 }
 
 /* The bar can be either horizontal, or vertical */
